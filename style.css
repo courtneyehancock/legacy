@@ -90,8 +90,6 @@ button:hover {
 
 /* -- HEADER -- */
 .top-menu-header {
-  display: flex;
-  justify-content: space-between;
 	background-color: #fff;
 }
 

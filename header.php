@@ -10,7 +10,7 @@
 <body>
 
 <header>
-  <div class="container top-menu-header">
+  <div class="container-fluid top-menu-header">
     <div class="row d-flex">
       <div class="col-md-4" id="site-logo">
         <!--If/else for Logo and Site Title-->
