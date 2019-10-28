@@ -89,14 +89,14 @@ button:hover {
 
 
 /* -- HEADER -- */
-header {
+.top-menu-header {
   display: flex;
   justify-content: space-between;
 	background-color: #fff;
 }
+
 #site-nav {
   width: 70%;
-	display: inline;
 }
 
 /* -- HOME PAGE -- */
