@@ -1,7 +1,7 @@
 <?php /*Template Name: Home Page Template*/ ?>
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="twelve columns">
       <!--Banner Img Widget-->
