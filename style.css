@@ -97,6 +97,14 @@ button:hover {
   width: 70%;
 }
 
+#site-nav a {
+	text-decoration: none;
+}
+
+#site-nav li {
+	display: inline;
+}
+
 /* -- HOME PAGE -- */
 
 
