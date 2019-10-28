@@ -1,115 +1,21 @@
 /*
- Theme Name: Legacy Hospitality LLC
-Theme URI: 
-Author: Courtney Hancock
-Description: This is a custom interactive theme for Legacy Hospitality LLC.
-Version: 0.1
- License: Open
- Text Domain: legacy
+  Theme Name: Class Code
+  Theme URI:
+  Author: Christie Knudson
+  Description: Tutorial theme to code during class
+   Version: 1.0
+   License: Open
+   Text Domain: class-code
 
 */
 
-/*=======================
-    universal styling
-=========================*/
-.button {
-  padding: 2%;
-  background-color: #ffffff;
-  max-width: 20%;
-}
 
-.button a {
-  color: black;
-  text-decoration: none;
-  font-style: italic;
-  text-align: center;
-}
+@import url("css/normalize.css");
+@import url("css/skeleton.css");
 
-.bold {
-  font-weight: bold;
-  color: #700353;
-}
-
-p {
-  color: #121212;
-}
-
-h1 {
-  color: #00529b;
-}
-
-h2 {
-  color: #f37022;
-  font-style: italic;
-}
-/*=======================
-          home page
-=========================*/
-.title,
-.entry-title {
-  text-transform: uppercase;
-  color: #121212;
-  padding: 1% 0;
-}
-
-.widget-about-us {
-  padding: 5%;
-}
-/*=======================
-          header
-=========================*/
-header{
-  color: #121212;
-  padding: 1%;
-}
-/*=======================
-          navigation
-=========================*/
-
-.top-menu-class li {
-  display: inline;
-  justify-content: center;
-}
-
-.top-menu-class a {
-  text-decoration: none;
-  color: #121212;
-  margin: 0 1rem;
-}
-
-/*=======================
-          Aside styling
-=========================*/
-
-aside {
-  background: #f2f2f2;
-}
-
-aside .widget-default-sidebar,
-aside .widget-left-sidebar,
-aside .widget-right-sidebar {
-  margin: 20px 0;
-  padding: 1%;
-}
-/*=======================
-          footer
-=========================*/
-
-footer {
-  color: #ffffff;
-  background-color: #121212;
-}
-
-footer p {
-  color: #ffffff;
-}
-
-.footer-class {
-  padding: 2%;
-}
-
-.widget-middle-footer img {
-  min-width: 300px;
-  min-height: 200px;
-  object-fit: cover;
+.post-feature img{
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 25px;
 }
