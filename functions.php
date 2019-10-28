@@ -9,114 +9,246 @@
 
   -----------------------------------------*/
 
-    function custom_theme_scripts() {
-    //Bootstrap integration
-      wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
+  function custom_theme_scripts() {
+  //Bootstrap integration
+    wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
 
-    //main CSS
-      wp_enqueue_style('main-styles', get_stylesheet_uri());
+  //main CSS
+    wp_enqueue_style('main-styles', get_stylesheet_uri());
 
-    //Javascript files
-      wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
-      wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
+  //Javascript files
+    wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
+    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
 
-    }
+  }
 
-    add_action('wp_enqueue_scripts', 'custom_theme_scripts');
-
-
-//Adds widget areas
-function blank_widgets_init() {
-  //Header widget
-  register_sidebar(array(
-    'name'          => ('Right Header'),
-    'id'            => 'right-header',
-    'description'   => 'Right widget area in the header',
-    'before_widget' => '<div class="widget-header widget-right">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-  ));
-
-  //Sidebar Widget
-  register_sidebar(array(
-    'name'          => ('Right Sidebar'),
-    'id'            => 'right-sidebar',
-    'description'   => 'Right sidebar widget area',
-    'before_widget' => '<div class="widget-right-sidebar">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="right-sidebar">',
-    'after_title'   => '</h3>'
-  ));
-
-  //Left footer widget
-  register_sidebar(array(
-    'name'          => ('Left Footer'),
-    'id'            => 'left-footer',
-    'description'   => 'Left widget area in the footer',
-    'before_widget' => '<div class="widget-footer widget-left">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-  ));
-
-  //Middle footer widget
-  register_sidebar(array(
-    'name'          => ('Middle Footer'),
-    'id'            => 'middle-footer',
-    'description'   => 'Middle widget area in the footer',
-    'before_widget' => '<div class="widget-footer widget-middle">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-  ));
-
-  //Right footer widget
-  register_sidebar(array(
-    'name'          => ('Right Footer'),
-    'id'            => 'right-footer',
-    'description'   => 'Right widget area in the footer',
-    'before_widget' => '<div class="widget-footer widget-right">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="widget-title">',
-    'after_title'   => '</h3>'
-  ));
-}
-add_action('widgets_init', 'blank_widgets_init');
+  add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
 
-//Add Custom Menus
-function custom_menus(){
-  register_nav_menus(array(
-    'header-menu' => __('Header Menu'),
-    'footer-menu' => __('Footer Menu')
-  ));
-}
-add_action('init', 'custom_menus');
+  //Widget Areas
+  function blank_widgets_init() {
+    //Home: Banner Widget
+    register_sidebar(array(
+      'name'          => ('Banner Home'),
+      'id'            => 'banner-home',
+      'description'   => 'Top banner widget area in home page',
+      'before_widget' => '<div class="widget-home widget-top">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: About-Brief Widget
+    register_sidebar(array(
+      'name'          => ('About-Brief Home'),
+      'id'            => 'about-brief-home',
+      'description'   => 'About-Brief widget area in home page',
+      'before_widget' => '<div class="widget-home widget-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: Right Img Widget
+    register_sidebar(array(
+      'name'          => ('Right Img Home'),
+      'id'            => 'right-img-home',
+      'description'   => 'Right img widget area in Home Page',
+      'before_widget' => '<div class="widget-home widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: Small Banner Widget
+    register_sidebar(array(
+      'name'          => ('Small Banner Home'),
+      'id'            => 'small-banner-home',
+      'description'   => 'Small banner widget area in home page',
+      'before_widget' => '<div class="widget-home widget-small-banner">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: Service-Brief Widget
+    register_sidebar(array(
+      'name'          => ('Service-Brief Home'),
+      'id'            => 'service-brief-home',
+      'description'   => 'Service-Brief widget area in home page',
+      'before_widget' => '<div class="widget-home widget-service-brief">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: Brands Slider Widget
+    register_sidebar(array(
+      'name'          => ('Brands Slider Home'),
+      'id'            => 'brands-home',
+      'description'   => 'Brands Slider widget area in home page',
+      'before_widget' => '<div class="widget-home widget-brands">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: Left Img Widget
+    register_sidebar(array(
+      'name'          => ('Left Img Home'),
+      'id'            => 'left-img-home',
+      'description'   => 'Left img widget area in Home Page',
+      'before_widget' => '<div class="widget-home widget-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: About-Brief Widget
+    register_sidebar(array(
+      'name'          => ('Contact-Brief Home'),
+      'id'            => 'contact-brief-home',
+      'description'   => 'Contact-Brief widget area in home page',
+      'before_widget' => '<div class="widget-home widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //About: Banner Widget
+    register_sidebar(array(
+      'name'          => ('Banner About'),
+      'id'            => 'banner-about',
+      'description'   => 'Top banner widget area in about page',
+      'before_widget' => '<div class="widget-about widget-top">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //About: Big Text Widget
+    register_sidebar(array(
+      'name'          => ('Big-Text About'),
+      'id'            => 'bigtext-about',
+      'description'   => 'Big-Text widget area in about page',
+      'before_widget' => '<div class="widget-about widget-bigtext">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Sidebar Widget
+    register_sidebar(array(
+      'name'          => ('Sidebar'),
+      'id'            => 'sidebar',
+      'description'   => 'Sidebar widget area',
+      'before_widget' => '<div class="widget-sidebar">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Contact: Banner Widget
+    register_sidebar(array(
+      'name'          => ('Banner Contact'),
+      'id'            => 'banner-contact',
+      'description'   => 'Top banner widget area in contact page',
+      'before_widget' => '<div class="widget-contact widget-top">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Contact: Contact Form Widget
+    register_sidebar(array(
+      'name'          => ('Contact Form'),
+      'id'            => 'contact-form',
+      'description'   => 'Contact form widget area in contact page',
+      'before_widget' => '<div class="widget-contact widget-form">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Contact: Left Contact Widget
+    register_sidebar(array(
+      'name'          => ('Left Contact'),
+      'id'            => 'left-contact',
+      'description'   => 'Left widget area in contact Page',
+      'before_widget' => '<div class="widget-contact widget-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Contact: Right Contact Widget
+    register_sidebar(array(
+      'name'          => ('Right Contact'),
+      'id'            => 'right-contact',
+      'description'   => 'Right widget area in contact Page',
+      'before_widget' => '<div class="widget-contact widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Footer: Left Widget
+    register_sidebar(array(
+      'name'          => ('Left Footer'),
+      'id'            => 'left-footer',
+      'description'   => 'Left widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Footer: Middle Left Space Widget
+    register_sidebar(array(
+      'name'          => ('Middle Left Footer'),
+      'id'            => 'middle-left-footer',
+      'description'   => 'Middle Left Space widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-middle-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Footer: Menu Title Widget
+    register_sidebar(array(
+      'name'          => ('Menu Title Footer'),
+      'id'            => 'menu-title-footer',
+      'description'   => 'Menu Title widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-menu-title">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Footer: Right Widget
+    register_sidebar(array(
+      'name'          => ('Right Footer'),
+      'id'            => 'right-footer',
+      'description'   => 'Right widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Footer: Social Widget
+    register_sidebar(array(
+      'name'          => ('Social Footer'),
+      'id'            => 'social-footer',
+      'description'   => 'Social widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-social">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+  }
+  add_action('widgets_init', 'blank_widgets_init');
 
+  //Custom Menus
+  function custom_menus(){
+    register_nav_menus(array(
+      'header-menu' => __('Header Menu'),
+      'footer-menu' => __('Footer Menu'),
+    ));
+  }
+  add_action('init', 'custom_menus');
 
-//Custom Post Type
-function create_post_type(){
-  register_post_type('menu-items',
-    array(
-      'labels' => array(
-        'name' => __('Menu Items'),
-        'singular_name' => __('Menu Item')
-      ),
-      'public' => true,
-      'has_archive' => true,
-      'show_in_menu' => true,
-      'show_in_nav_menus' => true,
-      'show_in_admin_bar' => true,
-      'menu_position' => 1,
-      'can_export' => true,
-      'menu_icon' => 'dashicons-carrot',
-      'supports' => array('title','editor','thumbnail'),
-    )
+  //Logo in the header
+  $custom_image_header = array(
+    'width' => 150,
+    'height' => 90,
+    'uploads' => true,
   );
-}
-add_action('init', 'create_post_type');
+  add_theme_support('custom-header', $custom_image_header);
+
+  //Adds featured imgs to posts
+    add_theme_support('post-thumbnails');
 
 
-
-?>
+  ?>
