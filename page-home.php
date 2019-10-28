@@ -10,25 +10,25 @@
   </div>
 
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-6">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
     </div>
-    <div class="col-m-4">
+    <div class="col-m-6">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
     </div>
   </div>
 
   <div class="row">
-    <div class="twelve columns">
+    <div class="col-md-12">
       <!--Small Banner Img Widget-->
       <?php dynamic_sidebar('small-banner-home'); ?>
     </div>
   </div>
 
-  <div class="row section-margins">
-    <div class="twelve columns">
+  <div class="row">
+    <div class="col-md-12">
       <!--Service Brief Widgets-->
       <?php dynamic_sidebar('service-brief-home'); ?>
     </div>
@@ -41,12 +41,12 @@
   </div>
 
 <div class="container">
-  <div class="row section-margins">
-    <div class="six columns">
+  <div class="row">
+    <div class="col-md-6">
       <!--Img Widget-->
       <?php dynamic_sidebar('left-img-home'); ?>
     </div>
-    <div class="six columns">
+    <div class="col-md-6">
       <!-- Contact Brief Text Widget-->
       <?php dynamic_sidebar('contact-brief-home'); ?>
     </div>
