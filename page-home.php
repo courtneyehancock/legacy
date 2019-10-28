@@ -10,6 +10,13 @@
   </div>
 
   <div class="row">
+    <div class="col-md-12">
+      <!--Small Banner Img Widget-->
+      <?php dynamic_sidebar('small-banner-home'); ?>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-md-6">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
@@ -17,13 +24,6 @@
     <div class="col-m-6">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <!--Small Banner Img Widget-->
-      <?php dynamic_sidebar('small-banner-home'); ?>
     </div>
   </div>
 
