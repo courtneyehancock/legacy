@@ -47,10 +47,16 @@ font-family: 'Afterglow-Regular' !important;
 	font-family: 'Afterglow-Regular';
 	src: url('fonts/Afterglow-Regular.otf') format('opentype');
 }
-h1, h2, h3 {
+h1 {
   font-family: 'Afterglow-Regular' !important;
   letter-spacing: 0.1px;
-  color: #085c74;
+  color: #6a202b;
+}
+
+h2, h3 {
+  font-family: 'Afterglow-Regular' !important;
+  letter-spacing: 0.1px;
+  color: #1f2833;
 }
 h4, h5, h6 {
   font-family: 'CaviarDreams_Bold' !important;
