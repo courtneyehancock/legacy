@@ -9,12 +9,12 @@
     </div>
   </div>
 
-  <div class="row section-margins">
-    <div class="six columns">
+  <div class="row">
+    <div class="col-md-8">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
     </div>
-    <div class="six columns">
+    <div class="col-m-4">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
     </div>
