@@ -3,7 +3,7 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="twelve columns">
+    <div class="col-md-12">
       <!--Banner Img Widget-->
       <?php dynamic_sidebar('banner-home'); ?>
     </div>
