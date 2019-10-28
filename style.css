@@ -9,13 +9,109 @@
 
 */
 
+/*
+Colors
+Beige: #f9e5bc
+Gold: #daa520
+Blush: #cc6666
+Maroon: #6a202b
+Soft Black: #1f2833
 
-@import url("css/normalize.css");
-@import url("css/skeleton.css");
+Fonts
+font-family: 'CaviarDreams' !important;
+font-family: 'CaviarDreams_Bold' !important;
+font-family: 'CaviarDreams-BoldItalic' !important;
+font-family: 'CaviarDreams-Italic' !important;
+font-family: 'Afterglow-Regular' !important;
+*/
 
-.post-feature img{
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 50px;
-  margin-top: 25px;
+
+/* -- Universal Styling -- */
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('fonts/CaviarDreams.otf') format('opentype');
+}
+@font-face {
+	font-family: 'CaviarDreams_Bold';
+	src: url('fonts/CaviarDreams_Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'CaviarDreams-BoldItalic';
+	src: url('fonts/CaviarDreams-BoldItalic.otf') format('opentype');
+}
+@font-face {
+	font-family: 'CaviarDreams-Italic';
+	src: url('fonts/CaviarDreams-Italic.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Afterglow-Regular';
+	src: url('fonts/Afterglow-Regular.otf') format('opentype');
+}
+h1, h2, h3 {
+  font-family: 'Afterglow-Regular' !important;
+  letter-spacing: 0.1px;
+  color: #085c74;
+}
+h4, h5, h6 {
+  font-family: 'CaviarDreams_Bold' !important;
+  color: #14a6a6;
+}
+p {
+  font-family: 'CaviarDreams', sans-serif !important;
+}
+.title-box {
+  width: 25px;
+  height: 50px;
+  background-color: #aadd73;
+  float:left;
+  margin-right: 20px;
+}
+.section-margins {
+  margin: 100px 0;
+}
+button {
+    border: 3px solid #60c28e;
+    font-family: 'Afterglow-Regular' !important;
+    color: #60c28e;
+    border-radius: 0;
+}
+button:hover {
+  border: 3px solid #60c28e !important;
+  background-color: #60c28e;
+  color: white;
+}
+
+
+/* -- HEADER -- */
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+}
+#site-nav {
+  width: 70%;
+}
+
+/* -- FOOTER -- */
+footer {
+    background-color: #0b0737;
+}
+footer p {
+  color: #A4BCBC;
+}
+.widget-footer h3.widget-title {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color: #14a6a6;
+}
+ul#menu-footer-menu {
+    font-family: 'CaviarDreams', sans-serif !important;
+    list-style-type: none;
+}
+#menu-footer-menu li a {
+  text-decoration: none;
+  color: #60c28e
+}
+
+.three.columns.footer-pad-top {
+    padding-top: 25px;
 }
