@@ -89,9 +89,10 @@ button:hover {
 
 
 /* -- HEADER -- */
-.header-flex {
+header {
   display: flex;
   justify-content: space-between;
+	background-color: #fff;
 }
 #site-nav {
   width: 70%;
