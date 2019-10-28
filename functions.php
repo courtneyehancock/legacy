@@ -3,17 +3,26 @@
   add_theme_support('post-thumbnails');
 
 
-function example_theme_scripts(){
-  wp_enqueue_style('skeleton', get_template_directory_uri() . '/css/skeleton.css');
-  wp_enqueue_style('normalize', get_template_directory_uri() . '/css/normalize.css');
+  /*-------------------------------------
 
-  wp_enqueue_style('main-styles', get_stylesheet_uri());
+  Adds style sheet and JavaScript files
 
-  wp_enqueue_style('script-name', get_template_directory_uri() . '/js/script.js');
+  -----------------------------------------*/
 
-}
+    function custom_theme_scripts() {
+    //Bootstrap integration
+      wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
 
-add_action('wp_enqueue_scripts' , 'example_theme_scripts');
+    //main CSS
+      wp_enqueue_style('main-styles', get_stylesheet_uri());
+
+    //Javascript files
+      wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/main.js');
+      wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
+
+    }
+
+    add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
 
 //Adds widget areas

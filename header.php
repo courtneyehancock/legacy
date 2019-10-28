@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php bloginfo('name'); ?></title>
   <!-- link CSS file -->
-  <!--<link rel="stylesheet" type="text/css" href="<//?php bloginfo('stylesheet_url'); ?>" />-->
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>-->
+  <link rel="stylesheet" type="text/css" href="<//?php bloginfo('stylesheet_url'); ?>" />
   <?php wp_head(); ?>
 </head>
 
@@ -14,16 +13,26 @@
 
   <header>
     <div class="container">
-      <div class="row">
-        <div class="three columns">
-          <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+      <div class="row header-flex">
+        <div id="site-logo">
+          <!--If/else for Logo and Site Title-->
+          <?php if(get_header_image() == '') { ?>
+            <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
+            <?php
+          }else{?>
+            <a href="<?php echo home_url('/'); ?>"><img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
+            <?php
+          }
+          ?>
         </div>
-        <div class="nine columns">
+        <div id="site-nav">
+          <!--Navigation-->
           <?php wp_nav_menu(array(
             'theme_location' => 'header-menu',
             'container-class' => 'menu-header'
             ));
           ?>
         </div>
-
+      </div>
+    </div>
   </header>
