@@ -12,7 +12,7 @@
 <header>
   <div class="container-fluid top-menu-header">
     <div class="row d-flex">
-      <div class="col-md-4" id="site-logo">
+      <div class="col-md-4 align-middle" id="site-logo">
         <!--If/else for Logo and Site Title-->
         <?php if(get_header_image() == '') { ?>
           <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
