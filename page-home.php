@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 <div class="container-fluid">
-  <div class="row">
+  <div class="row video-hero">
     <div class="col-md-12">
       <!--Banner Img Widget-->
       <?php dynamic_sidebar('banner-home'); ?>
