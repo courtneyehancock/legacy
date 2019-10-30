@@ -24,7 +24,7 @@
     </div>
   </div>
 
-<div class="continer-fluid">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-6">
       <!-- About Brief Text Widget-->
