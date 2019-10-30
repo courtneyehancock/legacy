@@ -94,7 +94,9 @@ button:hover {
 }
 
 /* -- HOME PAGE -- */
-
+.widget-small-banner img{
+	width: 100%;
+}
 
 /* -- FOOTER -- */
 footer {
