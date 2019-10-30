@@ -11,6 +11,13 @@
 
   <div class="row">
     <div class="col-md-12">
+      <!--Short Section w/Icons-->
+      <?php dynamic_sidebar('service-brief-home'); ?>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
       <!--Small Banner Img Widget-->
       <?php dynamic_sidebar('small-banner-home'); ?>
     </div>
@@ -24,13 +31,6 @@
     <div class="col-m-6">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <!--Service Brief Widgets-->
-      <?php dynamic_sidebar('service-brief-home'); ?>
     </div>
   </div>
 </div>
