@@ -23,7 +23,7 @@
         }
         ?>
       </div>
-      <div class="col-md-8" id="site-nav">
+      <div class="col-md-8 p-3" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
