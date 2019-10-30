@@ -15,6 +15,7 @@
       <?php dynamic_sidebar('service-brief-home'); ?>
     </div>
   </div>
+</div>
 
   <div class="row">
     <div class="col-md-12">
@@ -23,6 +24,7 @@
     </div>
   </div>
 
+<div class="continer-fluid">
   <div class="row">
     <div class="col-md-6">
       <!-- About Brief Text Widget-->
