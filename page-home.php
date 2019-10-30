@@ -26,11 +26,11 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4 text-center">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
     </div>
-    <div class="col-m-6">
+    <div class="col-md-auto">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
     </div>
