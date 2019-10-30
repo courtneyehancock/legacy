@@ -92,13 +92,19 @@ button:hover {
 .top-menu-header {
 	background-color: #fff;
 }
-#site-nav {
-  width: 70%;
-}
 
 /* -- HOME PAGE -- */
 .widget-small-banner img{
 	width: 100%;
+}
+
+a.homepage-offer {
+	color: #1f2833;
+}
+
+a.homepage-offer:hover {
+	color: #daa520;
+	text-decoration: none;
 }
 
 /* -- FOOTER -- */
