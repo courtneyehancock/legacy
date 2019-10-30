@@ -11,7 +11,7 @@
 
 <header>
   <div class="container-fluid top-menu-header">
-    <div class="row d-flex">
+    <div class="row">
       <div class="col-md-4" id="site-logo">
         <!--If/else for Logo and Site Title-->
         <?php if(get_header_image() == '') { ?>
