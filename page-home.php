@@ -25,7 +25,7 @@
   </div>
 
 <div class="container-fluid">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col-md-4 text-center">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
