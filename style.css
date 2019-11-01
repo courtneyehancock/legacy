@@ -124,9 +124,15 @@ body.page-template.page-template-page-about.page-template-page-about-php.page.pa
 .widget-about.widget-right h3{
 	color: #f9e5bc;
 }
+
+.widget-about {
+	margin-bottom: 80%;
+	background-color: #1f2833;
+	padding: 5%;
+}
 /* -- FOOTER -- */
 footer {
-    background-color: #f9e5bc;
+    background-color: #323b2b;
 		padding: 2%;
 }
 footer p {
