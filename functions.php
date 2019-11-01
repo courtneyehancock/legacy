@@ -97,7 +97,7 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: Contact-Brief Widget
+    //Home: About-Brief Widget
     register_sidebar(array(
       'name'          => ('Contact-Brief Home'),
       'id'            => 'contact-brief-home',
