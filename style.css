@@ -113,6 +113,11 @@ body.page-template.page-template-page-about.page-template-page-about-php.page.pa
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.widget-about.widget-left {
+	color: #f9e5bc;
+	margin-left: 10%;
+}
 /* -- FOOTER -- */
 footer {
     background-color: #1f2833;
