@@ -5,7 +5,7 @@
 <div class="container-fluid about-page">
 
   <div class="row align-items-center">
-    <div class="col-md-4">
+    <div class="col-md-4 pt-5">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-left-brief-info'); ?>
     </div>
