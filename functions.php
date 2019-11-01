@@ -110,7 +110,7 @@
 
     //About: Left-Brief-Info Widget
     register_sidebar(array(
-      'name'          => ('About-Left-Brief-Info'),
+      'name'          => ('About-Left Brief Info'),
       'id'            => 'about-left-brief-info',
       'description'   => 'About Left Brief Info widget area in home page',
       'before_widget' => '<div class="widget-about widget-left">',
@@ -121,7 +121,7 @@
 
     //About: Right-Brief-Info Widget
     register_sidebar(array(
-      'name'          => ('About-Right-Brief-Info'),
+      'name'          => ('About-Right Brief Info'),
       'id'            => 'about-right-brief-info',
       'description'   => 'About Right Brief Info widget area in home page',
       'before_widget' => '<div class="widget-about widget-right">',
@@ -132,7 +132,7 @@
 
     //About: Bottom-Left-Brief-Info Widget
     register_sidebar(array(
-      'name'          => ('About-Bottom-Left-Brief-Info'),
+      'name'          => ('About-Bottom Left Brief Info'),
       'id'            => 'about-bottom-left-brief-info',
       'description'   => 'About Bottom Left Brief Info widget area in home page',
       'before_widget' => '<div class="widget-about widget-left">',
