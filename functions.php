@@ -97,7 +97,7 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: About-Brief Widget
+    //Home: Contact-Brief Widget
     register_sidebar(array(
       'name'          => ('Contact-Brief Home'),
       'id'            => 'contact-brief-home',
@@ -118,6 +118,29 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+
+    //About: Right-Brief-Info Widget
+    register_sidebar(array(
+      'name'          => ('About-Right-Brief-Info'),
+      'id'            => 'about-right-brief-info',
+      'description'   => 'About Right Brief Info widget area in home page',
+      'before_widget' => '<div class="widget-about widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //About: Bottom-Left-Brief-Info Widget
+    register_sidebar(array(
+      'name'          => ('About-Bottom-Left-Brief-Info'),
+      'id'            => 'about-bottom-left-brief-info',
+      'description'   => 'About Bottom Left Brief Info widget area in home page',
+      'before_widget' => '<div class="widget-about widget-left">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //About: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner About'),
