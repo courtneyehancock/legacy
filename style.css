@@ -132,13 +132,13 @@ body.page-template.page-template-page-about.page-template-page-about-php.page.pa
 }
 /* -- FOOTER -- */
 
-.footer-img {
+img.footer-img {
 	width: 100%;
 }
-/*footer {
-    background-color: #232b2b;
+footer {
+    background-color: #fff;
 		padding: 2%;
-}*/
+}
 footer p {
   color: #A4BCBC;
 }
