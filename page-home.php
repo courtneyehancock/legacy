@@ -30,7 +30,7 @@
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
     </div>
-    <div class="col-md-auto">
+    <div class="col-md-8">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
     </div>
