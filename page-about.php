@@ -7,11 +7,10 @@
   <div class="row align-items-center">
     <div class="col-md-4 text-center">
       <!-- About Brief Text Widget-->
-      <?php dynamic_sidebar('about-brief-home'); ?>
+      <?php dynamic_sidebar('about-left-brief-info'); ?>
     </div>
-    <div class="col-md-auto">
-      <!--Img Widget-->
-      <?php dynamic_sidebar('right-img-home'); ?>
+    <div class="col-md-8 text-center">
+      
     </div>
   </div>
 </div>
