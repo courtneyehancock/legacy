@@ -107,7 +107,11 @@ a.homepage-offer:hover {
 	text-decoration: none;
 }
 /* -- ABOUT PAGE -- */
-
+.page-id-6 {
+	background-image: url("https://i.groupme.com/3648x5472.jpeg.a452b114b9bd413295a3eeb5f7bd27d2.large");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 /* -- FOOTER -- */
 footer {
     background-color: #1f2833;
