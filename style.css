@@ -107,10 +107,6 @@ a.homepage-offer:hover {
 	text-decoration: none;
 }
 
-#right-img-home {
-	width: 100%;
-	
-}
 /* -- ABOUT PAGE -- */
 body.page-template.page-template-page-about.page-template-page-about-php.page.page-id-6.logged-in.admin-bar.mega-menu-header-menu.customize-support {
 	background-image: url('http://courtneyehancock.com/legacyhospitalityllc/wp-content/uploads/2019/11/cutlery-delicious-dining-2878746.jpg');
@@ -118,7 +114,10 @@ body.page-template.page-template-page-about.page-template-page-about-php.page.pa
 	background-repeat: no-repeat;
 }
 
-
+#about-left-brief-info h1,
+#about-left-brief-info p {
+	color: #f9e5bc;
+}
 /* -- FOOTER -- */
 footer {
     background-color: #1f2833;
