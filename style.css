@@ -114,9 +114,15 @@ body.page-template.page-template-page-about.page-template-page-about-php.page.pa
 	background-repeat: no-repeat;
 }
 
-.widget-about.widget-left {
+.widget-about.widget-left,
+.widget-about.widget-right {
 	color: #f9e5bc;
 	margin-left: 10%;
+}
+
+.widget-about.widget-left h3,
+.widget-about.widget-right h3{
+	color: #f9e5bc;
 }
 /* -- FOOTER -- */
 footer {
