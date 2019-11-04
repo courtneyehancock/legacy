@@ -24,7 +24,7 @@
     </div>
   </div>
 
-<div class="container-fluid">
+<div>
   <div class="row align-items-center">
     <div class="col-md-4 text-center">
       <!-- About Brief Text Widget-->
