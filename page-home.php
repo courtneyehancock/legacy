@@ -37,26 +37,15 @@
   </div>
 </div>
 
+<div class="container tony-home-background">
   <div class="row">
-    <!--Work Brands Slider Widget-->
-    <?php dynamic_sidebar('brands-home'); ?>
-  </div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <!--Img Widget-->
-      <?php dynamic_sidebar('left-img-home'); ?>
+    <div class="col-md-4">
+      <img class="tony-quote-home" src="http://courtneyehancock.com/legacyhospitalityllc/wp-content/uploads/2019/11/tony_porcellini.png" alt="Tony Porcellini" />
     </div>
     <div class="col-md-6">
-      <!-- Contact Brief Text Widget-->
-      <?php dynamic_sidebar('contact-brief-home'); ?>
+      <p><?php dynamic_sidebar('quote-home'); ?></p>
+      <p class="tony-signed">- Tony Porcellini</p>
     </div>
-  </div>
-
-  <div class="row">
-    <!--Feature Posts/Case Studies Widget-->
-    <?php dynamic_sidebar(''); ?>
   </div>
 </div>
 

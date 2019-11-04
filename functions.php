@@ -77,6 +77,17 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+    //Home: Tony Quote Home
+    register_sidebar(array(
+      'name'          => ('Quote Home'),
+      'id'            => 'quote-home',
+      'description'   => 'Quote area in home page',
+      'before_widget' => '<div class="tony-quote-home">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Home: Brands Slider Widget
     register_sidebar(array(
       'name'          => ('Brands Slider Home'),
