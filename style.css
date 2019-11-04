@@ -107,6 +107,12 @@ a.homepage-offer:hover {
 	text-decoration: none;
 }
 
+img.legacy-logo {
+	max-width: 200px;
+	margin-top: 3%;
+	margin-left: 6%;
+}
+
 /*Spilled Wine Glass Img*/
 img.image.wp-image-41.attachment-full.size-full {
 	margin-left: 20%;

@@ -18,7 +18,7 @@
           <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></h1>
           <?php
         }else{?>
-          <a href="<?php echo home_url('/'); ?>"><img class="align-middle" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
+          <a href="<?php echo home_url('/'); ?>"><img class="align-middle legacy-logo" src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="Logo" /></a>
           <?php
         }
         ?>
