@@ -44,7 +44,6 @@
     </div>
     <div class="col-md-6 shadow p-3 mb-5 bg-white tony-quote-text">
       <p><?php dynamic_sidebar('quote-home'); ?></p>
-      <p class="tony-signed">- Tony Porcellini</p>
     </div>
   </div>
 </div>
