@@ -173,12 +173,12 @@
       'after_title'   => '</h3>'
     ));
 
-    //Gallery: Small Banner Widget
+    //Gallery: Banner Widget
     register_sidebar(array(
-      'name'          => ('Small Banner Gallery'),
-      'id'            => 'small-banner-gallery',
-      'description'   => 'Small banner widget area in gallery page',
-      'before_widget' => '<div class="widget-gallery widget-small-banner">',
+      'name'          => ('Banner Gallery'),
+      'id'            => 'banner-gallery',
+      'description'   => 'Banner widget area in gallery page',
+      'before_widget' => '<div class="widget-gallery widget-banner">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'

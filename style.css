@@ -151,26 +151,10 @@ img.footer-img {
 	width: 100%;
 	margin-top: 10%;
 }
-footer {
-    background-color: #fff;
-}
-footer p {
-  color: #A4BCBC;
-}
-.widget-footer h3.widget-title {
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    color: #14a6a6;
-}
-ul#menu-footer-menu {
-    font-family: 'CaviarDreams', sans-serif !important;
-    list-style-type: none;
-}
-#menu-footer-menu li a {
-  text-decoration: none;
-  color: #60c28e
-}
 
-.three.columns.footer-pad-top {
-    padding-top: 25px;
+/* -- MEDIA QUERIES -- */
+@media (min-width: 2000px) {
+	img.image.wp-image-41.attachment-full.size-full {
+		margin-left: 25%;
+	}
 }
