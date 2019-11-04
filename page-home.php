@@ -24,7 +24,7 @@
     </div>
   </div>
 
-<div>
+<div class="big-text">
   <div class="row align-items-center">
     <div class="col-md-4 text-center">
       <!-- About Brief Text Widget-->
