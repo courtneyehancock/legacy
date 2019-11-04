@@ -141,32 +141,22 @@
       'after_title'   => '</h3>'
     ));
 
-    //About: Banner Widget
+    //Services: Banner Widget
     register_sidebar(array(
-      'name'          => ('Banner About'),
-      'id'            => 'banner-about',
-      'description'   => 'Top banner widget area in about page',
-      'before_widget' => '<div class="widget-about widget-top">',
+      'name'          => ('Banner Services'),
+      'id'            => 'banner-services',
+      'description'   => 'Top banner widget area in services page',
+      'before_widget' => '<div class="widget-services widget-top">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //About: Big Text Widget
+    //Services: Big Text Widget
     register_sidebar(array(
-      'name'          => ('Big-Text About'),
-      'id'            => 'bigtext-about',
-      'description'   => 'Big-Text widget area in about page',
-      'before_widget' => '<div class="widget-about widget-bigtext">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-    //Sidebar Widget
-    register_sidebar(array(
-      'name'          => ('Sidebar'),
-      'id'            => 'sidebar',
-      'description'   => 'Sidebar widget area',
-      'before_widget' => '<div class="widget-sidebar">',
+      'name'          => ('Big-Text Services'),
+      'id'            => 'bigtext-services',
+      'description'   => 'Big-Text widget area in services page',
+      'before_widget' => '<div class="widget-services widget-bigtext">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
