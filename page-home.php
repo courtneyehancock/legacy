@@ -26,7 +26,7 @@
 
 <div class="big-text">
   <div class="row align-items-center">
-    <div class="col-md-4 text-center">
+    <div class="col-md-4 text-left pl-5">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
     </div>

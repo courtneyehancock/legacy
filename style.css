@@ -93,6 +93,12 @@ button:hover {
 	background-color: #fff;
 }
 
+img.legacy-logo {
+	max-width: 200px;
+	margin-top: 2%;
+	margin-left: 6%;
+}
+
 /* -- HOME PAGE -- */
 .widget-small-banner img{
 	width: 100%;
@@ -105,12 +111,6 @@ a.homepage-offer {
 a.homepage-offer:hover {
 	color: #daa520;
 	text-decoration: none;
-}
-
-img.legacy-logo {
-	max-width: 200px;
-	margin-top: 2%;
-	margin-left: 6%;
 }
 
 /*Spilled Wine Glass Img*/
