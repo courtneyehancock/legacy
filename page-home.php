@@ -42,7 +42,7 @@
     <div class="col-md-4">
       <img class="tony-quote-home" src="http://courtneyehancock.com/legacyhospitalityllc/wp-content/uploads/2019/11/tony_porcellini.png" alt="Tony Porcellini" />
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 shadow p-3 mb-5 bg-white tony-quote-text">
       <p><?php dynamic_sidebar('quote-home'); ?></p>
       <p class="tony-signed">- Tony Porcellini</p>
     </div>

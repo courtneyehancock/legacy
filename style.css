@@ -107,6 +107,20 @@ a.homepage-offer:hover {
 	text-decoration: none;
 }
 
+img.tony-quote-home {
+	width: 100%;
+	margin-left: 50px;
+}
+
+.container.tony-home-background {
+	background-color: #1f2833;
+	margin-bottom: -20px;
+	margin-top: -60px;
+}
+
+.tony-quote-text {
+	margin-left: 120px;
+}
 /* -- ABOUT PAGE -- */
 body.page-template.page-template-page-about.page-template-page-about-php.page.page-id-6.logged-in.admin-bar.mega-menu-header-menu.customize-support {
 	background-image: url('http://courtneyehancock.com/legacyhospitalityllc/wp-content/uploads/2019/11/background-legacy-about.jpg');
