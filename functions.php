@@ -162,6 +162,29 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+
+    //Services: Middle Left Img Widget
+    register_sidebar(array(
+      'name'          => ('Middle Left Img Widget Services'),
+      'id'            => 'middle-left-img-widget-services',
+      'description'   => 'Middle left image widget area in services page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Middle Left Img Widget
+    register_sidebar(array(
+      'name'          => ('Middle Right Text Widget Services'),
+      'id'            => 'middle-right-text-widget-services',
+      'description'   => 'Middle right text widget area in services page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Services: Big Text Widget
     register_sidebar(array(
       'name'          => ('Big-Text Services'),
