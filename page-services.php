@@ -25,7 +25,7 @@
   </div>
 </div>
 
-<div class="container-fluid services-page">
+<div class="services-page">
   <div class="row">
     <div class="col-md-12 pt-5">
       <!--Small Banner Widget-->
