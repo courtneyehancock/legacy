@@ -38,7 +38,7 @@
 </div>
 
 <div class="row">
-  <div class="col-md-12 pt-5">
+  <div class="col-md-12 pt-5 pb-5">
     <!--Img Slider Widget-->
     <?php dynamic_sidebar('img-slider-home'); ?>
   </div>
