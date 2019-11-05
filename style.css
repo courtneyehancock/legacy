@@ -159,9 +159,9 @@ body.page-template.page-template-page-about.page-template-page-about-php.page.pa
 }
 
 /* -- SERVICES PAGE -- */
-
-
-
+.image-ultimate-hover-1 .iheu-info {
+	background: #6a202b !important;
+}
 /* -- FOOTER -- */
 
 img.footer-img {
