@@ -14,12 +14,12 @@
 <div class="container-fluid services-page">
   <div class="row">
     <div class="col-md-6">
-      <!--Banner Img Widget-->
+      <!--Middle left image widget-->
       <?php dynamic_sidebar('middle-left-img-widget-services'); ?>
     </div>
 
     <div class="col-md-6">
-      <!--Banner Img Widget-->
+      <!--Middle right text widget-->
       <?php dynamic_sidebar('middle-right-text-widget-services'); ?>
     </div>
   </div>
