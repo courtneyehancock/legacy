@@ -12,7 +12,7 @@
 
   <div class="row">
     <div class="col-md-12">
-      <!--Banner Img Widget-->
+      <!--Business Card Img Widget-->
       <?php dynamic_sidebar('business-card-contact'); ?>
     </div>
   </div>
