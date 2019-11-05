@@ -109,13 +109,23 @@
       'after_title'   => '</h3>'
     ));
 
-
     //Home: About-Brief Widget
     register_sidebar(array(
       'name'          => ('Contact-Brief Home'),
       'id'            => 'contact-brief-home',
       'description'   => 'Contact-Brief widget area in home page',
       'before_widget' => '<div class="widget-home widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Home: Img Slider Widget
+    register_sidebar(array(
+      'name'          => ('Img Slider Home'),
+      'id'            => 'img-slider-home',
+      'description'   => 'Img slider widget area in Home Page',
+      'before_widget' => '<div class="widget-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
