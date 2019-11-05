@@ -154,7 +154,9 @@ body.page-template.page-template-page-about.page-template-page-about-php.page.pa
 }
 
 /* -- CONTACT PAGE -- */
-
+label {
+	padding: 1%;
+}
 
 /* -- FOOTER -- */
 

@@ -18,7 +18,7 @@
   </div>
 
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 text-center">
       <!--Contact Form Widget-->
       <?php dynamic_sidebar('contact-form'); ?>
     </div>
