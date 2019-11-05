@@ -13,7 +13,7 @@
 
 <div class="container services-page">
   <div class="row">
-    <div class="col-md-6 pt-5">
+    <div class="col-md-6 pt-5 pb-5">
       <!--Middle left image widget-->
       <?php dynamic_sidebar('middle-left-img-widget-services'); ?>
     </div>
@@ -27,7 +27,7 @@
 
 <div class="container-fluid services-page">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 pt-5">
       <!--Small Banner Widget-->
       <?php dynamic_sidebar('small-banner-services'); ?>
     </div>
