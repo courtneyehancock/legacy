@@ -46,10 +46,10 @@
 
 <div class="container tony-home-background">
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <p><?php dynamic_sidebar('left-img-home'); ?></p>
     </div>
-    <div class="col-md-6 shadow p-3 mb-5 bg-white tony-quote-text">
+    <div class="col-md-6 tony-quote-text">
       <p><?php dynamic_sidebar('quote-home'); ?></p>
     </div>
   </div>
