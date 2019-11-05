@@ -174,7 +174,7 @@
       'after_title'   => '</h3>'
     ));
 
-    //Services: Middle Left Img Widget
+    //Services: Middle Right Text Widget
     register_sidebar(array(
       'name'          => ('Middle Right Text Widget Services'),
       'id'            => 'middle-right-text-widget-services',
