@@ -25,5 +25,14 @@
   </div>
 </div>
 
+<div class="container-fluid services-page">
+  <div class="row">
+    <div class="col-md-12">
+      <!--Small Banner Widget-->
+      <?php dynamic_sidebar('small-banner-services'); ?>
+    </div>
+  </div>
+</div>
+
 
 <?php get_footer(); ?>

@@ -196,6 +196,17 @@
       'after_title'   => '</h3>'
     ));
 
+    //Services: Small Banner Widget
+    register_sidebar(array(
+      'name'          => ('Small Banner Services'),
+      'id'            => 'small-banner-services',
+      'description'   => 'Small banner widget area in services page',
+      'before_widget' => '<div class="widget-services widget-small-banner">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Gallery: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner Gallery'),
