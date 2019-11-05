@@ -218,6 +218,17 @@
       'after_title'   => '</h3>'
     ));
 
+    //Gallery: Gallery Widget
+    register_sidebar(array(
+      'name'          => ('Photo Gallery'),
+      'id'            => 'photo-gallery',
+      'description'   => 'Photo gallery widget area in gallery page',
+      'before_widget' => '<div class="widget-gallery widget-banner">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Contact: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner Contact'),
