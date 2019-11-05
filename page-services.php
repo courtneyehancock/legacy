@@ -11,7 +11,7 @@
   </div>
 </div>
 
-<div class="container-fluid services-page">
+<div class="container services-page">
   <div class="row">
     <div class="col-md-6">
       <!--Middle left image widget-->
