@@ -13,12 +13,12 @@
 
 <div class="container services-page">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 pt-5">
       <!--Middle left image widget-->
       <?php dynamic_sidebar('middle-left-img-widget-services'); ?>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 pt-5">
       <!--Middle right text widget-->
       <?php dynamic_sidebar('middle-right-text-widget-services'); ?>
     </div>
