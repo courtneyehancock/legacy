@@ -196,7 +196,7 @@
       'after_title'   => '</h3>'
     ));
 
-    //Services: Small Banner Widget
+    //Services: Small Banner Widget - display on all internal service pages
     register_sidebar(array(
       'name'          => ('Small Banner Services'),
       'id'            => 'small-banner-services',
