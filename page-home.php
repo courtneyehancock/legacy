@@ -44,7 +44,7 @@
   </div>
 </div>
 
-<div class="container tony-home-background">
+<div class="container pt-5">
   <div class="row">
     <div class="col-md-6">
       <p><?php dynamic_sidebar('left-img-home'); ?></p>
