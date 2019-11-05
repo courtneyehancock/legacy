@@ -262,6 +262,17 @@
       'after_title'   => '</h3>'
     ));
 
+    //Contact: Form
+    register_sidebar(array(
+      'name'          => ('Contact Form'),
+      'id'            => 'contact-form',
+      'description'   => 'Contact form widget area in contact Page',
+      'before_widget' => '<div class="contact-form-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Footer: Left Widget
     register_sidebar(array(
       'name'          => ('Left Footer'),

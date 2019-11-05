@@ -16,6 +16,13 @@
       <?php dynamic_sidebar('business-card-contact'); ?>
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <!--Contact Form Widget-->
+      <?php dynamic_sidebar('contact-form'); ?>
+    </div>
+  </div>
 </div>
 
 <?php get_footer(); ?>
