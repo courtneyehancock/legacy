@@ -1,21 +1,21 @@
-<?php /*Template Name: Operations Page Template*/ ?>
+<?php /*Template Name: Financial Page Template*/ ?>
 <?php get_header(); ?>
 
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <!--Operations Title Widget-->
-      <?php dynamic_sidebar('operations-title-widget'); ?>
+      <!--Financial Title Widget-->
+      <?php dynamic_sidebar('financial-title-widget'); ?>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <!--Operations Left Img Widget-->
-      <?php dynamic_sidebar('operations-left-img-widget'); ?>
+      <!--Financial Left Img Widget-->
+      <?php dynamic_sidebar('financial-left-img-widget'); ?>
     </div>
     <div class="col-md-6">
-      <!--Operations Right Text Widget-->
-      <?php dynamic_sidebar('operations-right-text-widget'); ?>
+      <!--Financial Right Text Widget-->
+      <?php dynamic_sidebar('financial-right-text-widget'); ?>
     </div>
   </div>
 </div>

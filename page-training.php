@@ -1,21 +1,21 @@
-<?php /*Template Name: Operations Page Template*/ ?>
+<?php /*Template Name: Training Page Template*/ ?>
 <?php get_header(); ?>
 
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <!--Operations Title Widget-->
-      <?php dynamic_sidebar('operations-title-widget'); ?>
+      <!--Training Title Widget-->
+      <?php dynamic_sidebar('training-title-widget'); ?>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6">
-      <!--Operations Left Img Widget-->
-      <?php dynamic_sidebar('operations-left-img-widget'); ?>
+      <!--Training Left Img Widget-->
+      <?php dynamic_sidebar('training-left-img-widget'); ?>
     </div>
     <div class="col-md-6">
-      <!--Operations Right Text Widget-->
-      <?php dynamic_sidebar('operations-right-text-widget'); ?>
+      <!--Training Right Text Widget-->
+      <?php dynamic_sidebar('training-right-text-widget'); ?>
     </div>
   </div>
 </div>
