@@ -208,6 +208,39 @@
       'after_title'   => '</h3>'
     ));
 
+    //Services: Operations Title Widget
+    register_sidebar(array(
+      'name'          => ('Operations Title Widget'),
+      'id'            => 'operations-title-widget',
+      'description'   => 'Title widget area in operations page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Operations Left-Img Widget
+    register_sidebar(array(
+      'name'          => ('Operations Left Img Widget'),
+      'id'            => 'operations-left-img-widget',
+      'description'   => 'Left img widget area in operations page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Operations Right Text Widget
+    register_sidebar(array(
+      'name'          => ('Operations Right Text Widget'),
+      'id'            => 'operations-right-text-widget',
+      'description'   => 'Right text widget area in operations page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Services: Small Banner Widget - display on all internal service pages
     register_sidebar(array(
       'name'          => ('Small Banner Services'),
@@ -218,6 +251,7 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+
 
     //Gallery: Banner Widget
     register_sidebar(array(
