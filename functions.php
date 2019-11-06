@@ -241,6 +241,138 @@
       'after_title'   => '</h3>'
     ));
 
+    //Services: Creative Title Widget
+    register_sidebar(array(
+      'name'          => ('Creative Title Widget'),
+      'id'            => 'creative-title-widget',
+      'description'   => 'Title widget area in creative page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Creative Left-Img Widget
+    register_sidebar(array(
+      'name'          => ('Creative Left Img Widget'),
+      'id'            => 'creative-left-img-widget',
+      'description'   => 'Left img widget area in creative page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Creative Right Text Widget
+    register_sidebar(array(
+      'name'          => ('Creative Right Text Widget'),
+      'id'            => 'creative-right-text-widget',
+      'description'   => 'Right text widget area in creative page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Events Title Widget
+    register_sidebar(array(
+      'name'          => ('Events Title Widget'),
+      'id'            => 'events-title-widget',
+      'description'   => 'Title widget area in events page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Events Left-Img Widget
+    register_sidebar(array(
+      'name'          => ('Events Left Img Widget'),
+      'id'            => 'events-left-img-widget',
+      'description'   => 'Left img widget area in events page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Events Right Text Widget
+    register_sidebar(array(
+      'name'          => ('Events Right Text Widget'),
+      'id'            => 'events-right-text-widget',
+      'description'   => 'Right text widget area in events page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Financial Title Widget
+    register_sidebar(array(
+      'name'          => ('Financial Title Widget'),
+      'id'            => 'financial-title-widget',
+      'description'   => 'Title widget area in financial page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Financial Left-Img Widget
+    register_sidebar(array(
+      'name'          => ('Financial Left Img Widget'),
+      'id'            => 'financial-left-img-widget',
+      'description'   => 'Left img widget area in financial page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Financial Right Text Widget
+    register_sidebar(array(
+      'name'          => ('Financial Right Text Widget'),
+      'id'            => 'financial-right-text-widget',
+      'description'   => 'Right text widget area in financial page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Training Title Widget
+    register_sidebar(array(
+      'name'          => ('Training Title Widget'),
+      'id'            => 'training-title-widget',
+      'description'   => 'Title widget area in training page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Training Left-Img Widget
+    register_sidebar(array(
+      'name'          => ('Training Left Img Widget'),
+      'id'            => 'training-left-img-widget',
+      'description'   => 'Left img widget area in training page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
+    //Services: Training Right Text Widget
+    register_sidebar(array(
+      'name'          => ('Training Right Text Widget'),
+      'id'            => 'training-right-text-widget',
+      'description'   => 'Right text widget area in training page',
+      'before_widget' => '<div class="widget-services">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Services: Small Banner Widget - display on all internal service pages
     register_sidebar(array(
       'name'          => ('Small Banner Services'),
