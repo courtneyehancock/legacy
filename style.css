@@ -125,7 +125,8 @@ img.tony-quote-home {
 }
 
 /* -- SERVICES PAGE -- */
-.image-ultimate-hover-1 .iheu-info {
+.image-ultimate-hover-1 .iheu-info,
+.image-ultimate-hover-2 .iheu-info {
 	background: #6a202b !important;
 }
 
