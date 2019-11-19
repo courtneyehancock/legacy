@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 
 
-<div class="container-fluid about-page">
+<div class="container about-page">
 
   <div class="row align-items-center">
     <div class="col-md-6">
