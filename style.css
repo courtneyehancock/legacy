@@ -125,22 +125,7 @@ img.tony-quote-home {
 }
 
 /* -- ABOUT PAGE -- */
-.widget-about.widget-left,
-.widget-about.widget-right {
-	color: #f9e5bc;
-	margin-left: 10%;
-}
 
-.widget-about.widget-left h3,
-.widget-about.widget-right h3{
-	color: #f9e5bc;
-}
-
-.widget-about {
-	margin-bottom: 80%;
-	background-color: #1f2833;
-	padding: 5%;
-}
 
 /* -- SERVICES PAGE -- */
 .image-ultimate-hover-1 .iheu-info {
