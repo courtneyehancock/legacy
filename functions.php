@@ -131,6 +131,17 @@
       'after_title'   => '</h3>'
     ));
 
+    //About: Banner Widget
+    register_sidebar(array(
+      'name'          => ('Banner About'),
+      'id'            => 'banner-about',
+      'description'   => 'Top banner widget area in about page',
+      'before_widget' => '<div class="widget-about widget-top">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //About: Left-Brief-Info Widget
     register_sidebar(array(
       'name'          => ('About-Left Brief Info'),
